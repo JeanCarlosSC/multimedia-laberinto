@@ -14,5 +14,6 @@ public class Camara : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         transform.position = jugador.transform.position + distancia;
+        //transform.Rotate(new Vector3(jugador.transform.rotation.x, 0, jugador.transform.rotation.z));
     }
 }
